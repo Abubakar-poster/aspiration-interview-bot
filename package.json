@@ -1,0 +1,28 @@
+{
+  "name": "telegram-interview-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for candidate interviews with anti-cheat detection",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "interview",
+    "sqlite3",
+    "nodejs"
+  ],
+  "author": "Abubakar Poster",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

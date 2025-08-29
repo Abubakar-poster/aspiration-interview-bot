@@ -1,0 +1,16 @@
+# dependencies
+/node_modules
+
+# env files
+.env
+.env.local
+
+# database + exports
+/data
+*.db
+*.csv
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
